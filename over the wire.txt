@@ -1,0 +1,29 @@
+Bandit:
+password for 1: boJ9jbbUNNfktd78OOpsqOltutMc3MY1 - in readme bandir0
+password for 2: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 - used cat ./ for - file name (- is used for stdin)
+password for 3: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK - used "" for spaces.
+password for 4:  pIwrPrtPN36QITSp3EQaw936yaFoFgAB - used ls -a to find filename.
+password for 5: koReBOKuIDDepwhWk7jZC0RTdopnAYKh - used  find . -exec file {} \; | grep text | cut -d: -f1                          find text file
+password for 6: DXjZPULLxYr17uwoI01bNLQbtFemEgo7 - used find .  -size 1033c -exec file {} \; | grep text | cut -d: -f1      find text file
+password for 7: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs - used find -user bandit7 -group bandit6 -size 33c
+password for 8: cvX2JJa4CFALtqS87jk27qwqGhBM9plV -used cat data.txt | grep millionth
+password for 9: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR - used sort data.txt | uniq -u         note: uniq only counts lines as repeated if they are one after the other- sort and uniq should go together.
+
+
+natas: 
+natas1 password: gtVrDuiDfck831PqWsLEZy5gyDz1clto .    in source.
+natas2 password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi . in source, used ctrl+u shortcut.
+natas 3: password: sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14 . found files/pixel.png, went into /files and found users.txt
+natas4: password: Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ . in robots.txt
+natas5: password: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq  . used addon to change refere header
+natas6: password: aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1 . changed cookie value: loggedin = 0 -> loggedin = 1. false->true
+natas7: password: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9 . got secret from inc file (php)
+natas8: password:  DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe . used url to include solution
+natas9: password: W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl . used php in shell to reverse the encoding of encoded pass.
+natas10: password: panOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu -  used      ; cat ../../../../etc/natas_webpass/natas10
+natas11: password: U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK - used      -i "" ../../../../etc/natas_webpass/natas11
+natas12: password: EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3 - used php.php file to code cookie with key.
+
+
+narnia:
+narnia1 - user buffer overlow with literal hex keys "/de/ef..." to get wanted stack
